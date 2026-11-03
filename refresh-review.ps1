@@ -1,4 +1,4 @@
-﻿# Preparation only: produces REVIEW data, never calls Meta or a store mutation.
+# Preparation only: produces REVIEW data, never calls Meta or a store mutation.
 param([Parameter(Mandatory=$true)][string]$OutputDirectory)
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/cloudcart_variant_candidate.ps1" -SelfTest | Out-Null
@@ -22,6 +22,8 @@ foreach ($id in $allowlist) {
     }
 }
 if (@($rows | Where-Object { !$_.review_required }).Count) { throw 'Review marker is required' }
+. "$PSScriptRoot/meta-test-export.ps1"
+$metaRows = @(Convert-MetaTest762 -Rows $rows)
 New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
 $manifest = [ordered]@{
     mode='REVIEW_ONLY'; ready_for_meta_import=$false
@@ -34,9 +36,12 @@ $manifest = [ordered]@{
 }
 $tempCsv = Join-Path $OutputDirectory 'candidate.csv.tmp'
 $tempManifest = Join-Path $OutputDirectory 'status.json.tmp'
+$tempMeta = Join-Path $OutputDirectory 'meta-test-762.csv.tmp'
 $rows | Export-Csv -LiteralPath $tempCsv -NoTypeInformation -Encoding UTF8
+$metaRows | Export-Csv -LiteralPath $tempMeta -NoTypeInformation -Encoding UTF8
 $manifest | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $tempManifest -Encoding UTF8
 # Publish local output only after all parsing and completeness checks pass.
 Move-Item -LiteralPath $tempCsv -Destination (Join-Path $OutputDirectory 'candidate.csv') -Force
+Move-Item -LiteralPath $tempMeta -Destination (Join-Path $OutputDirectory 'meta-test-762.csv') -Force
 Move-Item -LiteralPath $tempManifest -Destination (Join-Path $OutputDirectory 'status.json') -Force
 [pscustomobject]@{mode='REVIEW_ONLY';rows=$rows.Count;ready_for_meta_import=$false}
