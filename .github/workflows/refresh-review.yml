@@ -10,22 +10,45 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    # Standard runner only. No paid larger runner, artifact storage or external secret.
+    # Standard runners in PUBLIC repositories are free. Skip private copies.
+    if: github.event.repository.private == false
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Test inventory audit
+        run: python3 -m unittest discover -p 'test_inventory*.py' -v
       - name: Test and refresh explicit review products
         shell: pwsh
-        run: ./refresh-review.ps1 -OutputDirectory ./review
+        run: ./refresh-review.ps1 -OutputDirectory ./review -AuditInputDirectory "${{ runner.temp }}/inventory-inputs"
+      - name: Audit all feed products using the same downloads
+        id: inventory
+        shell: bash
+        env:
+          AUDIT_INPUT_DIRECTORY: ${{ runner.temp }}/inventory-inputs
+        run: |
+          set -euo pipefail
+          set +e
+          python3 inventory_audit.py "$AUDIT_INPUT_DIRECTORY/products.xml" "$AUDIT_INPUT_DIRECTORY/facebook.xml" > review/inventory-report.json.tmp
+          audit_status=$?
+          set -e
+          if [[ "$audit_status" != 0 && "$audit_status" != 2 ]]; then
+            cat review/inventory-report.json.tmp
+            exit "$audit_status"
+          fi
+          mv review/inventory-report.json.tmp review/inventory-report.json
+          echo "status=$audit_status" >> "$GITHUB_OUTPUT"
       - name: Commit review output if changed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- review/candidate.csv review/status.json review/meta-test-762.csv
+          git add -- review/candidate.csv review/status.json review/meta-test-762.csv review/inventory-report.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh review-only candidate feed'
+            git commit -m 'Refresh review-only candidate feed and inventory audit'
             git push
           fi
+      - name: Fail when inventory exceptions were found
+        if: steps.inventory.outputs.status == '2'
+        run: exit 2
