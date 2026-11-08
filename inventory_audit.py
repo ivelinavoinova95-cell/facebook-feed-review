@@ -137,6 +137,8 @@ def audit(products_xml, feed_xml, meta=None):
 
 if __name__ == '__main__':
     from pathlib import Path
+    import hashlib
+    from datetime import datetime, timezone
     if len(sys.argv) not in (3, 4):
         sys.exit(__doc__)
     try:
@@ -144,6 +146,10 @@ if __name__ == '__main__':
                        Path(sys.argv[2]).read_text(encoding='utf-8-sig'),
                        json.loads(Path(sys.argv[3]).read_text(encoding='utf-8-sig'))
                        if len(sys.argv) == 4 else None)
+        report['checked_at_utc'] = datetime.now(timezone.utc).isoformat()
+        report['source_sha256'] = {
+            'native': hashlib.sha256(Path(sys.argv[1]).read_bytes()).hexdigest(),
+            'facebook': hashlib.sha256(Path(sys.argv[2]).read_bytes()).hexdigest()}
         print(json.dumps(report, ensure_ascii=False, indent=2))
         sys.exit(2 if report['issues'] else 0)
     except (ValueError, ET.ParseError) as exc:
