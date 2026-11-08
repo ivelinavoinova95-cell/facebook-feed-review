@@ -8,7 +8,7 @@ function Read-CloudCart([string]$Query) {
  if($Query -match '(?i)\bmutation\b'){throw 'Read-only queries only'}
  $file=Join-Path $work 'query.graphql'
  [IO.File]::WriteAllText($file,$Query,[Text.UTF8Encoding]::new($false))
- $result=(cloudcart.cmd app execute --file $file --json --compact-output | Out-String | ConvertFrom-Json)
+ $result=(cloudcart.cmd app execute --store 'drehizavseki.com' --file $file --json --compact-output | Out-String | ConvertFrom-Json)
  if($result.errors -or !$result.data){throw 'CloudCart query failed'}
  return $result.data
 }
@@ -33,15 +33,16 @@ foreach($o in ($orders | Sort-Object {$_.timestamps.added})) {
   try {
    $t=Read-CloudCart ('{ orderShipmentsTracking(orderId:"'+$o.id+'") { supported actualStatus { name date } } }')
    $tracking=@($t.orderShipmentsTracking | ForEach-Object {[pscustomobject]@{supported=$_.supported;status=$_.actualStatus.name;eventDate=$_.actualStatus.date}})
-   $trackingAvailable=$tracking.Count -gt 0
+   $trackingAvailable=($tracking.Count -gt 0 -and @($tracking | Where-Object { !$_.supported -or [string]::IsNullOrWhiteSpace($_.status) }).Count -eq 0)
   } catch {$trackingFailures++;$trackingAvailable=$false}
  }
- $rows += [pscustomobject]@{orderId=$o.id;createdAt=$o.timestamps.added;category=$category;fulfillment=$o.statuses.fulfillment;payments=@($o.payments | Select-Object provider,status);trackingAvailable=$trackingAvailable;tracking=$tracking}
+ $rows += [pscustomobject]@{orderId=$o.id;createdAt=$o.timestamps.added;category=$category;fulfillment=$o.statuses.fulfillment;payments=@($o.payments | Select-Object provider,status);trackingAvailable=$trackingAvailable;trackingNeedsReview=($category -eq 'shipping_payment_review' -and (!$trackingAvailable -or @($tracking | Where-Object {[string]::IsNullOrWhiteSpace($_.eventDate)}).Count -gt 0));tracking=$tracking}
  Write-Host ('Checked order '+$o.id)
 }
 $report=[pscustomobject]@{
- mode='READ_ONLY';checkedAtUtc=[DateTime]::UtcNow.ToString('o');since=$Since
+ store='drehizavseki.com';mode='READ_ONLY';checkedAtUtc=[DateTime]::UtcNow.ToString('o');since=$Since
  pendingOrders=$rows.Count;pages=$pages;trackingFailures=$trackingFailures
+ trackingReviewCount=@($rows | Where-Object {$_.trackingNeedsReview}).Count
  completeOrderPagination=$true;trackingQueriesSucceeded=($trackingFailures -eq 0)
  counts=@($rows | Group-Object category | ForEach-Object {[pscustomobject]@{category=$_.Name;count=$_.Count}})
  limitations=@('Carrier labels do not prove payment settlement.','Missing event dates do not prove fresh tracking.','No messages, orders, payments or shipping labels are changed.')
@@ -49,5 +50,5 @@ $report=[pscustomobject]@{
 }
 $output=Join-Path $work 'report.json'
 [IO.File]::WriteAllText($output,($report | ConvertTo-Json -Depth 10),[Text.UTF8Encoding]::new($false))
-$report | Select-Object mode,checkedAtUtc,pendingOrders,pages,trackingFailures,counts | ConvertTo-Json -Depth 6
+$report | Select-Object store,mode,checkedAtUtc,pendingOrders,pages,trackingFailures,trackingReviewCount,counts | ConvertTo-Json -Depth 6
 Write-Host ('Report: '+$output)

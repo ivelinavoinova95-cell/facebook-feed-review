@@ -21,3 +21,7 @@ Categories:
 `trackingQueriesSucceeded` means no tracking query threw an error. It does not guarantee carrier support, recent events, delivery or received payment. Inspect each `supported`, `trackingAvailable` and event date. Blank dates indicate unknown freshness; never mark an order Paid or completed from a label alone. Tracking failures remain visible in the report instead of silently dropping orders.
 
 No scheduled execution is configured for this script. The existing GitHub inventory workflow is unchanged and does not run order queries. The code requires the existing local CloudCart access; no credentials are sent to GitHub Actions.
+
+## Store and tracking coverage
+
+Every CLI query explicitly targets `drehizavseki.com`, regardless of the CLI's active store. The report includes the store name. `trackingAvailable` is true only when all returned shipments are supported and carry a status label. `trackingNeedsReview` also flags missing carrier event dates, and `trackingReviewCount` totals affected orders. This is an inspection flag, not an assertion that the shipment is late or unpaid. Successful queries with missing data remain visible for review.
