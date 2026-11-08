@@ -25,3 +25,7 @@ No scheduled execution is configured for this script. The existing GitHub invent
 ## Store and tracking coverage
 
 Every CLI query explicitly targets `drehizavseki.com`, regardless of the CLI's active store. The report includes the store name. `trackingAvailable` is true only when all returned shipments are supported and carry a status label. `trackingNeedsReview` also flags missing carrier event dates, and `trackingReviewCount` totals affected orders. This is an inspection flag, not an assertion that the shipment is late or unpaid. Successful queries with missing data remain visible for review.
+
+## Carrier exception signals
+
+`carrierExceptionReview` flags any returned tracking label containing one of the observed Bulgarian phrases: `Предаване обратно на подател`, `Връщане към подателя`, or `Анулиране`. `carrierExceptionReviewCount` counts affected orders once. These are review signals; a cancelled or returning shipment is not proof that the whole order should be cancelled, refunded or restocked. An order may have replacement shipments. The script preserves the original order/payment categories and every returned carrier label. Unrecognized phrases remain visible; this is not an exhaustive carrier-status classifier. Match patterns use ASCII Unicode escapes to remain compatible with Windows PowerShell 5.1 source decoding.
