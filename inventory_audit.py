@@ -75,6 +75,7 @@ def audit(products_xml, feed_xml, meta=None):
         if not variants:
             raise ValueError('Missing variants: ' + ident)
         available = []
+        available_sizes = set()
         for variant in variants:
             vid = text(variant, 'id')
             if not vid or vid in seen_variants:
@@ -85,6 +86,12 @@ def audit(products_xml, feed_xml, meta=None):
             parameters = {text(p, 'name'): text(p, 'value')
                           for p in variant.findall('parameters/parameter')}
             if quantity > 0:
+                sizes = [value for key, value in parameters.items()
+                         if key.casefold() in ('размер', 'size', 'деца години') and value]
+                if len(sizes) != 1:
+                    issue('available_variant_missing_or_ambiguous_size')
+                else:
+                    available_sizes.add(sizes[0])
                 available.append({'variant_id': vid, 'quantity': str(quantity),
                                   'parameters': parameters})
         if not available:
@@ -95,6 +102,8 @@ def audit(products_xml, feed_xml, meta=None):
         if price != number(text(source, 'price')):
             issue('native_feed_effective_price_mismatch')
         rows.append({'product_id': ident, 'available_variant_count': len(available),
+                     'available_size_count': len(available_sizes),
+                     'available_sizes': sorted(available_sizes),
                      'available_variants': available, 'effective_price_eur': str(price)})
     if meta is not None:
         ids = set()
@@ -121,6 +130,8 @@ def audit(products_xml, feed_xml, meta=None):
             'native_product_count': len(products), 'feed_product_count': len(feed),
             'one_available_variant_count': sum(r['available_variant_count'] == 1 for r in rows),
             'multiple_available_variants_count': sum(r['available_variant_count'] >= 2 for r in rows),
+            'one_available_size_count': sum(r['available_size_count'] == 1 for r in rows),
+            'multiple_available_sizes_count': sum(r['available_size_count'] >= 2 for r in rows),
             'issues': issues, 'products': rows}
 
 
