@@ -1,5 +1,6 @@
 # Preparation only: produces REVIEW data, never calls Meta or a store mutation.
-param([Parameter(Mandatory=$true)][string]$OutputDirectory)
+param([Parameter(Mandatory=$true)][string]$OutputDirectory,
+      [string]$AuditInputDirectory)
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/cloudcart_variant_candidate.ps1" -SelfTest | Out-Null
 $allowlistJson = Get-Content -LiteralPath "$PSScriptRoot/review-product-ids.json" -Raw | ConvertFrom-Json
@@ -14,6 +15,13 @@ try {
     $products = $http.DownloadString('https://drehizavseki.com/app/feed/blabla')
     $catalog = $http.DownloadString('https://www.drehizavseki.com/xml_feed/NDM0NzktZmFjZWJvb2s/1')
 } finally { $http.Dispose() }
+# Optional local inputs for the all-product audit; reuse these exact downloads.
+if ($AuditInputDirectory) {
+    New-Item -ItemType Directory -Path $AuditInputDirectory -Force | Out-Null
+    $utf8 = New-Object Text.UTF8Encoding($false)
+    [IO.File]::WriteAllText((Join-Path $AuditInputDirectory 'products.xml'), $products, $utf8)
+    [IO.File]::WriteAllText((Join-Path $AuditInputDirectory 'facebook.xml'), $catalog, $utf8)
+}
 $allRows = @(Convert-Candidate $products $catalog)
 $rows = @($allRows | Where-Object { $_.source_product_id -in $allowlist })
 foreach ($id in $allowlist) {
