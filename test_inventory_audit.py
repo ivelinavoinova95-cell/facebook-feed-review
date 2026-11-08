@@ -25,6 +25,16 @@ class InventoryTests(unittest.TestCase):
         source = PRODUCTS.replace('<variant>', '<variant quantity="99">').replace('<quantity>1</quantity>', '<quantity>0</quantity>')
         self.assertIn('no_positive_variant_quantity', [i['reason'] for i in audit(source, FEED)['issues']])
 
+    def test_two_variants_of_same_size_count_as_one_size(self):
+        source = PRODUCTS.replace('<quantity>0</quantity>', '<quantity>1</quantity>').replace('<value>S</value>', '<value>L</value>')
+        row = audit(source, FEED)['products'][0]
+        self.assertEqual(row['available_variant_count'], 2)
+        self.assertEqual(row['available_size_count'], 1)
+
+    def test_unknown_size_is_reported(self):
+        result = audit(PRODUCTS.replace('<name>Размер</name>', '<name>unknown</name>'), FEED)
+        self.assertIn('available_variant_missing_or_ambiguous_size', [i['reason'] for i in result['issues']])
+
     def test_preorder_and_exact_fb_tag(self):
         result = audit(PRODUCTS.replace('<tags>fb</tags>', '<tags>notfb</tags>'),
                        FEED.replace('Комплект', 'Комплект ОЧАКВА СЕ'))
