@@ -1,0 +1,4054 @@
+{
+  "mode": "READ_ONLY_AUDIT",
+  "ready_for_meta_import": false,
+  "source_generation_age_known": false,
+  "meta_snapshot_supplied": false,
+  "native_product_count": 199,
+  "feed_product_count": 159,
+  "one_available_variant_count": 76,
+  "multiple_available_variants_count": 83,
+  "one_available_size_count": 77,
+  "multiple_available_sizes_count": 82,
+  "issues": [],
+  "products": [
+    {
+      "product_id": "3",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4291",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "4294",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "26.50"
+    },
+    {
+      "product_id": "6",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "59",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "25.20"
+    },
+    {
+      "product_id": "22",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "12 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2848",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "12 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "17.00"
+    },
+    {
+      "product_id": "31",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "4-5  години",
+        "5-6  години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "231",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "4-5  години"
+          }
+        },
+        {
+          "variant_id": "232",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "5-6  години"
+          }
+        }
+      ],
+      "effective_price_eur": "26.59"
+    },
+    {
+      "product_id": "33",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4340",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "17.17"
+    },
+    {
+      "product_id": "46",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "11-12  години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "364",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "11-12  години"
+          }
+        }
+      ],
+      "effective_price_eur": "37.84"
+    },
+    {
+      "product_id": "64",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "3-4 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4178",
+          "quantity": "4",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        }
+      ],
+      "effective_price_eur": "24.06"
+    },
+    {
+      "product_id": "66",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "1-2 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3989",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        }
+      ],
+      "effective_price_eur": "25.43"
+    },
+    {
+      "product_id": "81",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "1-2 години",
+        "2-3 години",
+        "3-4 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3975",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "3978",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        },
+        {
+          "variant_id": "3981",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        }
+      ],
+      "effective_price_eur": "23.00"
+    },
+    {
+      "product_id": "83",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2-3 години",
+        "3-4 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3939",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        },
+        {
+          "variant_id": "3942",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        }
+      ],
+      "effective_price_eur": "16.23"
+    },
+    {
+      "product_id": "86",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3888",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "14.32"
+    },
+    {
+      "product_id": "102",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3817",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "21.48"
+    },
+    {
+      "product_id": "105",
+      "available_variant_count": 26,
+      "available_size_count": 3,
+      "available_sizes": [
+        "1-2г.",
+        "2-3г.",
+        "6м."
+      ],
+      "available_variants": [
+        {
+          "variant_id": "932",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "1"
+          }
+        },
+        {
+          "variant_id": "933",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "2"
+          }
+        },
+        {
+          "variant_id": "934",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "3"
+          }
+        },
+        {
+          "variant_id": "935",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "4"
+          }
+        },
+        {
+          "variant_id": "936",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "5"
+          }
+        },
+        {
+          "variant_id": "937",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "6"
+          }
+        },
+        {
+          "variant_id": "938",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "7"
+          }
+        },
+        {
+          "variant_id": "939",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "6м.",
+            "Цвят": "8"
+          }
+        },
+        {
+          "variant_id": "940",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "1"
+          }
+        },
+        {
+          "variant_id": "941",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "2"
+          }
+        },
+        {
+          "variant_id": "942",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "3"
+          }
+        },
+        {
+          "variant_id": "943",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "4"
+          }
+        },
+        {
+          "variant_id": "944",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "5"
+          }
+        },
+        {
+          "variant_id": "945",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "6"
+          }
+        },
+        {
+          "variant_id": "946",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "7"
+          }
+        },
+        {
+          "variant_id": "947",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "1-2г.",
+            "Цвят": "8"
+          }
+        },
+        {
+          "variant_id": "949",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "1"
+          }
+        },
+        {
+          "variant_id": "950",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "2"
+          }
+        },
+        {
+          "variant_id": "951",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "3"
+          }
+        },
+        {
+          "variant_id": "952",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "4"
+          }
+        },
+        {
+          "variant_id": "953",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "5"
+          }
+        },
+        {
+          "variant_id": "954",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "6"
+          }
+        },
+        {
+          "variant_id": "955",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "7"
+          }
+        },
+        {
+          "variant_id": "956",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "8"
+          }
+        },
+        {
+          "variant_id": "957",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "9"
+          }
+        },
+        {
+          "variant_id": "958",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3г.",
+            "Цвят": "10"
+          }
+        }
+      ],
+      "effective_price_eur": "2.56"
+    },
+    {
+      "product_id": "106",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "1-2 години",
+        "3-4 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3354",
+          "quantity": "9",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "3357",
+          "quantity": "7",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "3360",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "8.00"
+    },
+    {
+      "product_id": "107",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "1-2 години",
+        "3-4 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3346",
+          "quantity": "10",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "3349",
+          "quantity": "10",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "3352",
+          "quantity": "8",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "9.00"
+    },
+    {
+      "product_id": "115",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3775",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "61.00"
+    },
+    {
+      "product_id": "116",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3757",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        },
+        {
+          "variant_id": "3763",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "61.00"
+    },
+    {
+      "product_id": "117",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "2XL",
+        "3XL",
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3734",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        },
+        {
+          "variant_id": "3740",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        },
+        {
+          "variant_id": "3743",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3XL"
+          }
+        }
+      ],
+      "effective_price_eur": "61.36"
+    },
+    {
+      "product_id": "118",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3714",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "66.40"
+    },
+    {
+      "product_id": "139",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3810",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "12.83"
+    },
+    {
+      "product_id": "148",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1330",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L",
+            "Цвят": "Бежов"
+          }
+        },
+        {
+          "variant_id": "3648",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL",
+            "Цвят": "Бежов"
+          }
+        }
+      ],
+      "effective_price_eur": "15.00"
+    },
+    {
+      "product_id": "160",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1455",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "S",
+            "Цвят": "Шампанско"
+          }
+        },
+        {
+          "variant_id": "1457",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "M",
+            "Цвят": "Шампанско"
+          }
+        },
+        {
+          "variant_id": "1459",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L",
+            "Цвят": "Шампанско"
+          }
+        }
+      ],
+      "effective_price_eur": "61.36"
+    },
+    {
+      "product_id": "162",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1430",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "1431",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "1432",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "15.80"
+    },
+    {
+      "product_id": "164",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1441",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "61.36"
+    },
+    {
+      "product_id": "172",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1497",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "1498",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "25.46"
+    },
+    {
+      "product_id": "182",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1540",
+          "quantity": "9",
+          "parameters": {
+            "Размер": "L"
+          }
+        },
+        {
+          "variant_id": "5901",
+          "quantity": "5",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "4.66"
+    },
+    {
+      "product_id": "193",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3545",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "27.70"
+    },
+    {
+      "product_id": "203",
+      "available_variant_count": 2,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1788",
+          "quantity": "1",
+          "parameters": {
+            "Цвят": "Черен",
+            "Размер": "L"
+          }
+        },
+        {
+          "variant_id": "1793",
+          "quantity": "1",
+          "parameters": {
+            "Цвят": "Tъмно син",
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "31.70"
+    },
+    {
+      "product_id": "206",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1823",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "65.85"
+    },
+    {
+      "product_id": "214",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3453",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "20.43"
+    },
+    {
+      "product_id": "223",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1941",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "66.17"
+    },
+    {
+      "product_id": "224",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "1943",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "63.40"
+    },
+    {
+      "product_id": "232",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2065",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        },
+        {
+          "variant_id": "2066",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "96.80"
+    },
+    {
+      "product_id": "234",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2073",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "236",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2086",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "237",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2091",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "241",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2111",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2112",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "242",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "M",
+        "S",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2115",
+          "quantity": "6",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2116",
+          "quantity": "6",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2118",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "61.36"
+    },
+    {
+      "product_id": "243",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2120",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "17.40"
+    },
+    {
+      "product_id": "244",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2124",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2125",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "17.40"
+    },
+    {
+      "product_id": "245",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2128",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "17.40"
+    },
+    {
+      "product_id": "246",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2133",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "17.40"
+    },
+    {
+      "product_id": "247",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2136",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "17.40"
+    },
+    {
+      "product_id": "248",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2143",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "31.00"
+    },
+    {
+      "product_id": "251",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2153",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "31.00"
+    },
+    {
+      "product_id": "256",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "3-4 години",
+        "4-5 години",
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3257",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "3260",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        },
+        {
+          "variant_id": "3263",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.00"
+    },
+    {
+      "product_id": "258",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3241",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.00"
+    },
+    {
+      "product_id": "261",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2201",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2202",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2203",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "7.00"
+    },
+    {
+      "product_id": "264",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2215",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "20.00"
+    },
+    {
+      "product_id": "265",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2218",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "20.00"
+    },
+    {
+      "product_id": "267",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2225",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2226",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "14.00"
+    },
+    {
+      "product_id": "269",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2234",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2235",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "270",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2238",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2239",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "271",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2243",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "274",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2253",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "30.00"
+    },
+    {
+      "product_id": "275",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2258",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2259",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "276",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2261",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2262",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2263",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "277",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "3XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2521",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3XL"
+          }
+        }
+      ],
+      "effective_price_eur": "16.00"
+    },
+    {
+      "product_id": "278",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2269",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "16.00"
+    },
+    {
+      "product_id": "280",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2277",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2278",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "14.00"
+    },
+    {
+      "product_id": "281",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2281",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2282",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "13.00"
+    },
+    {
+      "product_id": "282",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2285",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2286",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2287",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "13.00"
+    },
+    {
+      "product_id": "283",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2289",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2290",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2291",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "14.00"
+    },
+    {
+      "product_id": "284",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2293",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2294",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2295",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "14.00"
+    },
+    {
+      "product_id": "285",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2297",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "14.00"
+    },
+    {
+      "product_id": "286",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2301",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2302",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2303",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "12.80"
+    },
+    {
+      "product_id": "287",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2305",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2306",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2307",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "12.80"
+    },
+    {
+      "product_id": "289",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2313",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2315",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "17.00"
+    },
+    {
+      "product_id": "294",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "3-4 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4062",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        }
+      ],
+      "effective_price_eur": "27.60"
+    },
+    {
+      "product_id": "296",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2355",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "2356",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "2357",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "9.90"
+    },
+    {
+      "product_id": "301",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3232",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "306",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2416",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        },
+        {
+          "variant_id": "3219",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "307",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2419",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "308",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2803",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S",
+            "Цвят": "Тъмносин"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "309",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "2790",
+          "quantity": "35",
+          "parameters": {
+            "Размер": "S",
+            "Цвят": "Светло сив"
+          }
+        },
+        {
+          "variant_id": "2802",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "2XL",
+            "Цвят": "Светло сив"
+          }
+        }
+      ],
+      "effective_price_eur": "25.00"
+    },
+    {
+      "product_id": "343",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3207",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "38.00"
+    },
+    {
+      "product_id": "349",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3803",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "3806",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "14.83"
+    },
+    {
+      "product_id": "351",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2-3 години",
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3911",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        },
+        {
+          "variant_id": "3917",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "16.95"
+    },
+    {
+      "product_id": "354",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "3933",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "16.36"
+    },
+    {
+      "product_id": "360",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "1-2 години",
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4096",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "4099",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "21.54"
+    },
+    {
+      "product_id": "361",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "1-2 години",
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4109",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "4112",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "20.50"
+    },
+    {
+      "product_id": "374",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4302",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "19.10"
+    },
+    {
+      "product_id": "375",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4315",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "19.10"
+    },
+    {
+      "product_id": "378",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4330",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "4336",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "19.10"
+    },
+    {
+      "product_id": "388",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4450",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "4453",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "64.20"
+    },
+    {
+      "product_id": "393",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "18 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4507",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "18 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "16.56"
+    },
+    {
+      "product_id": "400",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4552",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "4558",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "23.07"
+    },
+    {
+      "product_id": "410",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "6-7 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4667",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "6-7 години"
+          }
+        }
+      ],
+      "effective_price_eur": "12.60"
+    },
+    {
+      "product_id": "411",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4688",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "35.00"
+    },
+    {
+      "product_id": "416",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2XL",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "4712",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "4724",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "48.54"
+    },
+    {
+      "product_id": "460",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5092",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "62.34"
+    },
+    {
+      "product_id": "466",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5148",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5154",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "44.22"
+    },
+    {
+      "product_id": "472",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5194",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "19.77"
+    },
+    {
+      "product_id": "475",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5207",
+          "quantity": "4",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "2.33"
+    },
+    {
+      "product_id": "488",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "15 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5305",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "15 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "504",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5408",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "18.20"
+    },
+    {
+      "product_id": "526",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "1-2 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5621",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        }
+      ],
+      "effective_price_eur": "21.00"
+    },
+    {
+      "product_id": "527",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "1-2 години",
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5622",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "5625",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "19.30"
+    },
+    {
+      "product_id": "528",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "1-2 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5635",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        }
+      ],
+      "effective_price_eur": "19.30"
+    },
+    {
+      "product_id": "531",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5673",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "19.30"
+    },
+    {
+      "product_id": "534",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5683",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "38.90"
+    },
+    {
+      "product_id": "536",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5687",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "40.90"
+    },
+    {
+      "product_id": "539",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5711",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        }
+      ],
+      "effective_price_eur": "26.40"
+    },
+    {
+      "product_id": "555",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5908",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "5911",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5914",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "18.66"
+    },
+    {
+      "product_id": "557",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5916",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "5919",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5922",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "558",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5926",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "5929",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5932",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "561",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5935",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "5938",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5941",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.40"
+    },
+    {
+      "product_id": "564",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5944",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "5947",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "5950",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.40"
+    },
+    {
+      "product_id": "565",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "15-16 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5976",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "15-16 години"
+          }
+        }
+      ],
+      "effective_price_eur": "31.87"
+    },
+    {
+      "product_id": "570",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6031",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "6034",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "6037",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "39.90"
+    },
+    {
+      "product_id": "573",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6044",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "39.90"
+    },
+    {
+      "product_id": "578",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "12-13 години",
+        "13-14 години",
+        "14-15 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6065",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "12-13 години"
+          }
+        },
+        {
+          "variant_id": "6068",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "13-14 години"
+          }
+        },
+        {
+          "variant_id": "6071",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "14-15 години"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "579",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "13-14 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6082",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "13-14 години"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "588",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "9 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6166",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "26.30"
+    },
+    {
+      "product_id": "591",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "18 месеца",
+        "24 месеца",
+        "9 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6179",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9 месеца"
+          }
+        },
+        {
+          "variant_id": "6185",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "18 месеца"
+          }
+        },
+        {
+          "variant_id": "6188",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "24 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "27.90"
+    },
+    {
+      "product_id": "592",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "18 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6198",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "18 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "26.40"
+    },
+    {
+      "product_id": "593",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "1-2 години",
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6206",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        },
+        {
+          "variant_id": "6209",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "25.60"
+    },
+    {
+      "product_id": "596",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "1-2 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6220",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        }
+      ],
+      "effective_price_eur": "18.60"
+    },
+    {
+      "product_id": "598",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2-3 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6233",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        },
+        {
+          "variant_id": "6239",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "18.90"
+    },
+    {
+      "product_id": "599",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "3-4 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6249",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "6252",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "18.90"
+    },
+    {
+      "product_id": "609",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "5-6 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6375",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.90"
+    },
+    {
+      "product_id": "628",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "3-4 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6480",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "6483",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        }
+      ],
+      "effective_price_eur": "21.20"
+    },
+    {
+      "product_id": "633",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "5-6 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6532",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        },
+        {
+          "variant_id": "6538",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        }
+      ],
+      "effective_price_eur": "26.60"
+    },
+    {
+      "product_id": "634",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "11-12 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6557",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "11-12 години"
+          }
+        }
+      ],
+      "effective_price_eur": "26.60"
+    },
+    {
+      "product_id": "639",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "6 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6585",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "6 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "640",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "24 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6604",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "24 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "644",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "15-16 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6641",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        },
+        {
+          "variant_id": "6650",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "15-16 години"
+          }
+        }
+      ],
+      "effective_price_eur": "31.87"
+    },
+    {
+      "product_id": "645",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "15-16 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6654",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        },
+        {
+          "variant_id": "6663",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "15-16 години"
+          }
+        }
+      ],
+      "effective_price_eur": "31.87"
+    },
+    {
+      "product_id": "646",
+      "available_variant_count": 4,
+      "available_size_count": 4,
+      "available_sizes": [
+        "3-4 години",
+        "5-6 години",
+        "6-7 години",
+        "7-8 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6664",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "6670",
+          "quantity": "4",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        },
+        {
+          "variant_id": "6673",
+          "quantity": "4",
+          "parameters": {
+            "Размер": "6-7 години"
+          }
+        },
+        {
+          "variant_id": "6676",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "7-8 години"
+          }
+        }
+      ],
+      "effective_price_eur": "21.20"
+    },
+    {
+      "product_id": "653",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2-3 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6707",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2-3 години"
+          }
+        }
+      ],
+      "effective_price_eur": "18.90"
+    },
+    {
+      "product_id": "711",
+      "available_variant_count": 4,
+      "available_size_count": 4,
+      "available_sizes": [
+        "2XL",
+        "M",
+        "S",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7008",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7011",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7017",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        },
+        {
+          "variant_id": "7020",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "714",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7023",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7026",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "28.00"
+    },
+    {
+      "product_id": "715",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "СТАНДАРТЕН S/M/L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7209",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "СТАНДАРТЕН S/M/L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "717",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7035",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "24.00"
+    },
+    {
+      "product_id": "720",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7041",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7044",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7047",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "723",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "СТАНДАРТЕН S/M/L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7213",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "СТАНДАРТЕН S/M/L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "726",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "СТАНДАРТЕН S/M/L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7212",
+          "quantity": "3",
+          "parameters": {
+            "Размер": "СТАНДАРТЕН S/M/L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "729",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7056",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7059",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7062",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "36.00"
+    },
+    {
+      "product_id": "732",
+      "available_variant_count": 4,
+      "available_size_count": 4,
+      "available_sizes": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7065",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7068",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7071",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        },
+        {
+          "variant_id": "7074",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "735",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7077",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7080",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7083",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "42.00"
+    },
+    {
+      "product_id": "738",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "M",
+        "S",
+        "XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7086",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7089",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7095",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "XL"
+          }
+        }
+      ],
+      "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "747",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7122",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7128",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "750",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7143",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "753",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7146",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7149",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "756",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7161",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "759",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "L",
+        "M"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7167",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7170",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "762",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "L"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7179",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "765",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7182",
+          "quantity": "5",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7185",
+          "quantity": "4",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7188",
+          "quantity": "6",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
+    },
+    {
+      "product_id": "768",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7191",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7194",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7197",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "80.00"
+    },
+    {
+      "product_id": "769",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7200",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7203",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        }
+      ],
+      "effective_price_eur": "61.20"
+    },
+    {
+      "product_id": "775",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "5-6  години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7306",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "5-6  години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.20"
+    },
+    {
+      "product_id": "777",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "2-3 години",
+        "9-10  години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7313",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "2-3 години"
+          }
+        },
+        {
+          "variant_id": "7325",
+          "quantity": "1",
+          "parameters": {
+            "Деца години": "9-10  години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.20"
+    },
+    {
+      "product_id": "781",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "4-5 години",
+        "5-6 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7330",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "4-5 години"
+          }
+        },
+        {
+          "variant_id": "7333",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        },
+        {
+          "variant_id": "7339",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.00"
+    },
+    {
+      "product_id": "784",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "5-6 години",
+        "7-8 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7366",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        },
+        {
+          "variant_id": "7369",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "7-8 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.40"
+    },
+    {
+      "product_id": "787",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "13-14 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7399",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        },
+        {
+          "variant_id": "7405",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "13-14 години"
+          }
+        }
+      ],
+      "effective_price_eur": "28.40"
+    },
+    {
+      "product_id": "790",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "6 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7411",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "6 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "792",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "24 месеца",
+        "6 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7421",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "6 месеца"
+          }
+        },
+        {
+          "variant_id": "7430",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "24 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "794",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "18 месеца",
+        "24 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7439",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "18 месеца"
+          }
+        },
+        {
+          "variant_id": "7442",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "24 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "797",
+      "available_variant_count": 3,
+      "available_size_count": 3,
+      "available_sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7456",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "S"
+          }
+        },
+        {
+          "variant_id": "7459",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "M"
+          }
+        },
+        {
+          "variant_id": "7462",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "L"
+          }
+        }
+      ],
+      "effective_price_eur": "56.00"
+    }
+  ],
+  "checked_at_utc": "2026-11-08T18:56:49.547331+00:00",
+  "source_sha256": {
+    "native": "f959ad001da93ccf0735aae545a4ac23a379af4292f67b59018bc0550f793f27",
+    "facebook": "244257e8d76615c0b7ec281aaa0320b4de94d8981ee5d4f213b3f93d7b4634c3"
+  }
+}
