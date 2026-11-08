@@ -36,11 +36,13 @@ foreach($o in ($orders | Sort-Object {$_.timestamps.added})) {
    $trackingAvailable=($tracking.Count -gt 0 -and @($tracking | Where-Object { !$_.supported -or [string]::IsNullOrWhiteSpace($_.status) }).Count -eq 0)
   } catch {$trackingFailures++;$trackingAvailable=$false}
  }
- $rows += [pscustomobject]@{orderId=$o.id;createdAt=$o.timestamps.added;category=$category;fulfillment=$o.statuses.fulfillment;payments=@($o.payments | Select-Object provider,status);trackingAvailable=$trackingAvailable;trackingNeedsReview=($category -eq 'shipping_payment_review' -and (!$trackingAvailable -or @($tracking | Where-Object {[string]::IsNullOrWhiteSpace($_.eventDate)}).Count -gt 0));tracking=$tracking}
+ $carrierExceptionReview=@($tracking | Where-Object {$_.status -match '\u041f\u0440\u0435\u0434\u0430\u0432\u0430\u043d\u0435\u0020\u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0020\u043d\u0430\u0020\u043f\u043e\u0434\u0430\u0442\u0435\u043b|\u0412\u0440\u044a\u0449\u0430\u043d\u0435\u0020\u043a\u044a\u043c\u0020\u043f\u043e\u0434\u0430\u0442\u0435\u043b\u044f|\u0410\u043d\u0443\u043b\u0438\u0440\u0430\u043d\u0435'}).Count -gt 0
+ $rows += [pscustomobject]@{carrierExceptionReview=$carrierExceptionReview;orderId=$o.id;createdAt=$o.timestamps.added;category=$category;fulfillment=$o.statuses.fulfillment;payments=@($o.payments | Select-Object provider,status);trackingAvailable=$trackingAvailable;trackingNeedsReview=($category -eq 'shipping_payment_review' -and (!$trackingAvailable -or @($tracking | Where-Object {[string]::IsNullOrWhiteSpace($_.eventDate)}).Count -gt 0));tracking=$tracking}
  Write-Host ('Checked order '+$o.id)
 }
 $report=[pscustomobject]@{
  store='drehizavseki.com';mode='READ_ONLY';checkedAtUtc=[DateTime]::UtcNow.ToString('o');since=$Since
+ carrierExceptionReviewCount=@($rows | Where-Object {$_.carrierExceptionReview}).Count
  pendingOrders=$rows.Count;pages=$pages;trackingFailures=$trackingFailures
  trackingReviewCount=@($rows | Where-Object {$_.trackingNeedsReview}).Count
  completeOrderPagination=$true;trackingQueriesSucceeded=($trackingFailures -eq 0)
@@ -50,5 +52,5 @@ $report=[pscustomobject]@{
 }
 $output=Join-Path $work 'report.json'
 [IO.File]::WriteAllText($output,($report | ConvertTo-Json -Depth 10),[Text.UTF8Encoding]::new($false))
-$report | Select-Object store,mode,checkedAtUtc,pendingOrders,pages,trackingFailures,trackingReviewCount,counts | ConvertTo-Json -Depth 6
+$report | Select-Object store,mode,checkedAtUtc,pendingOrders,pages,trackingFailures,trackingReviewCount,carrierExceptionReviewCount,counts | ConvertTo-Json -Depth 6
 Write-Host ('Report: '+$output)
