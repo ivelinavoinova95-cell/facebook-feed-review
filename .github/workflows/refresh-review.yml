@@ -1,8 +1,14 @@
-name: Refresh candidate feed for review
+name: Refresh AI price feed and review reports
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ai_price_feed.py
+      - test_ai_price_feed.py
+      - .github/workflows/refresh-review.yml
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 */2 * * *'
 permissions:
   contents: write
 concurrency:
@@ -16,11 +22,18 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Test inventory audit
-        run: python3 -m unittest discover -p 'test_inventory*.py' -v
+      - name: Test price transformation and inventory audit with synthetic fixtures
+        run: python3 -m unittest discover -p 'test_*.py' -v
       - name: Test and refresh explicit review products
+        id: review
+        continue-on-error: true
         shell: pwsh
         run: ./refresh-review.ps1 -OutputDirectory ./review -AuditInputDirectory "${{ runner.temp }}/inventory-inputs"
+      - name: Build AI-only price feed from the same public Facebook download
+        shell: bash
+        env:
+          AUDIT_INPUT_DIRECTORY: ${{ runner.temp }}/inventory-inputs
+        run: python3 ai_price_feed.py "$AUDIT_INPUT_DIRECTORY/facebook.xml" ai/catalog.xml --status ai/status.json
       - name: Audit all feed products using the same downloads
         id: inventory
         shell: bash
@@ -44,11 +57,14 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- review/candidate.csv review/status.json review/meta-test-762.csv review/inventory-report.json
+          git add -- review/candidate.csv review/status.json review/meta-test-762.csv review/inventory-report.json ai/catalog.xml ai/status.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh review-only candidate feed and inventory audit'
+            git commit -m 'Refresh AI price feed and review reports'
             git push
           fi
+      - name: Report a failed review-only prototype after publishing valid AI output
+        if: steps.review.outcome == 'failure'
+        run: exit 1
       - name: Fail when inventory exceptions were found
         if: steps.inventory.outputs.status == '2'
         run: exit 2

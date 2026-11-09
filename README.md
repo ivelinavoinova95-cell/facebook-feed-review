@@ -1,12 +1,52 @@
 # Facebook feed review
 
-Review-only CloudCart variant feed prototype. Only product 762 is enabled.
+CloudCart feed checks and an isolated Meta Business Agent price feed.
+The variant prototype below remains review-only and limited to product 762.
+
+## AI-only price feed
+
+`ai/catalog.xml` mirrors the public CloudCart Facebook RSS feed. Its only
+changed item field is `custom_label_3`, which the Business Agent currently
+uses as its free-text Price field. It contains the active EUR sale price
+(with regular price) or the regular EUR price. Expired/future sales are not
+described as current discounts. Parent product IDs, URLs, numeric price and
+sale_price fields, availability, images and other labels are preserved.
+
+The intended target is only catalog `903676082457339` (Facebook AI).
+Advertising catalog `933781605022005` must keep the original CloudCart URL.
+This is separate from the incompatible variant candidate files below.
+
+One existing workflow now runs every two hours at UTC minute 17, before the
+AI catalog's existing two-hour fetch at local minute 29. A push changing the
+builder/tests/workflow also refreshes the output; generated commits do not
+trigger another run. No second scheduled workflow or paid runner is added.
+
+`ai/status.json` records build time and source/output hashes. Build time does
+not prove source generation time. GitHub schedules can be delayed or skipped;
+the feed is a periodic snapshot, not live stock. Invalid prices/currency,
+duplicate IDs, invalid product links, empty sources or removal of more than
+25% of previous IDs fail without replacing the last good feed. A large,
+intentional removal requires a manually reviewed `--allow-large-change` run.
+Monitor workflow failures and the status timestamp before relying on freshness.
+
+The builder uses only the Python standard library, public product data and
+the repository's existing standard public runner. No store or Meta token,
+customer information, order action, customer test, or outgoing message is used.
+The workflow itself makes no Meta or store mutations. Activation of the
+generated URL in the AI catalog is a separate, verified rollout step.
+
+The review prototype and inventory report retain their own failure indicators.
+A failed review-only product check does not prevent valid AI output from
+being built from the already downloaded public Facebook source. An invalid
+source or failed AI validation still prevents publication.
+
+## Review-only variant prototype
 
 - No Meta import or store mutations.
 - No CloudCart PAT or Meta token.
 - `review/candidate.csv` is draft data with `review_required` on every row.
 - `review/status.json` reports `ready_for_meta_import: false`.
-- Refresh runs every six hours (UTC minute 17) and can be started manually.
+- Refresh shares the existing two-hour workflow and can be started manually.
 - Source feeds are snapshots. Fetch time does not prove source generation time.
 - GitHub scheduled workflows can be delayed or skipped.
 
@@ -16,7 +56,7 @@ The converter has ten passing self-tests. Run `powershell -NoProfile -File ./clo
 
 ## All-product inventory check
 
-The same existing six-hour workflow also checks every Facebook feed product
+The same existing workflow also checks every Facebook feed product
 against the native variant quantities, sizes, fb tags and effective prices.
 It reuses the exact downloads used for the review candidate. It does not
 filter or upload the production Meta feed.
