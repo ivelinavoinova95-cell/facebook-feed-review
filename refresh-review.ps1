@@ -40,7 +40,7 @@ $manifest = [ordered]@{
     tracking_uses_parent_product_ids=$true
     candidate_ids_match_current_tracking=$false
     allowlist=$allowlist; candidate_rows=$rows.Count
-    schedule_note='Proposed 6-hour refresh; GitHub may delay or skip scheduled runs'
+    schedule_note='Shared 2-hour refresh; GitHub may delay or skip scheduled runs'
 }
 $tempCsv = Join-Path $OutputDirectory 'candidate.csv.tmp'
 $tempManifest = Join-Path $OutputDirectory 'status.json.tmp'
