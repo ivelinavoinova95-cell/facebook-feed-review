@@ -1,7 +1,7 @@
 {
   "mode": "REVIEW_ONLY",
   "ready_for_meta_import": false,
-  "checked_at_utc": "2026-11-09T21:52:04.5919711Z",
+  "checked_at_utc": "2026-11-09T22:55:30.2756000Z",
   "source_generation_age_known": false,
   "tracking_uses_parent_product_ids": true,
   "candidate_ids_match_current_tracking": false,
@@ -9,5 +9,5 @@
     "762"
   ],
   "candidate_rows": 3,
-  "schedule_note": "Proposed 6-hour refresh; GitHub may delay or skip scheduled runs"
+  "schedule_note": "Shared 2-hour refresh; GitHub may delay or skip scheduled runs"
 }
