@@ -34,6 +34,10 @@ the repository's existing standard public runner. No store or Meta token,
 customer information, order action, customer test, or outgoing message is used.
 The workflow itself makes no Meta or store mutations. Activation of the
 generated URL in the AI catalog is a separate, verified rollout step.
+The AI feed is now connected through existing feed `1037178389425923`.
+Upload `1046045805205848` persisted all 158 items with zero errors, warnings
+or deletions. Catalog readback confirmed 51 sale prices, no missing product
+URLs and no numeric price/stock differences from the advertising catalog.
 
 The review prototype and inventory report retain their own failure indicators.
 A failed review-only product check does not prevent valid AI output from
