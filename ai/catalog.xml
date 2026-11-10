@@ -2842,7 +2842,7 @@
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>2</g:inventory>
 <g:custom_label_0>new</g:custom_label_0>
-<g:custom_label_1>featured</g:custom_label_1>
+<g:custom_label_1 />
 <g:custom_label_2 />
 <g:custom_label_3>31,87 EUR</g:custom_label_3>
 </item>
@@ -3124,7 +3124,7 @@
 <g:price>24.00 EUR</g:price>
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>2</g:inventory>
-<g:custom_label_0 />
+<g:custom_label_0>new</g:custom_label_0>
 <g:custom_label_1 />
 <g:custom_label_2 />
 <g:custom_label_3>24,00 EUR</g:custom_label_3>
@@ -3491,7 +3491,7 @@
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>3</g:inventory>
 <g:custom_label_0>new</g:custom_label_0>
-<g:custom_label_1>featured</g:custom_label_1>
+<g:custom_label_1 />
 <g:custom_label_2 />
 <g:custom_label_3>36,00 EUR</g:custom_label_3>
 </item>

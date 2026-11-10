@@ -2749,7 +2749,7 @@
         },
         {
           "variant_id": "5976",
-          "quantity": "3",
+          "quantity": "2",
           "parameters": {
             "Размер": "15-16 години"
           }
@@ -4210,9 +4210,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-10T05:01:56.228330+00:00",
+  "checked_at_utc": "2026-11-10T07:21:27.097531+00:00",
   "source_sha256": {
-    "native": "82946a24703a3cb28afa40d1856b553123c476585b631ecc49c8f20926dfdb77",
-    "facebook": "28c32794bf7bd0e2d65d7ba1439970ccce43b362110c8cc809d1986bd6a89e29"
+    "native": "cd8be6dc23c27c5d8eadc43266db3c0c5c7ae9adf694b45d0ca4e68bfe1dad31",
+    "facebook": "e61321e8506de13baaf943fa0dea1df75c783cb6b7f391ef7a5ee02ac1fec12d"
   }
 }
