@@ -4,11 +4,11 @@
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
   "native_product_count": 200,
-  "feed_product_count": 160,
-  "one_available_variant_count": 76,
-  "multiple_available_variants_count": 84,
-  "one_available_size_count": 77,
-  "multiple_available_sizes_count": 83,
+  "feed_product_count": 156,
+  "one_available_variant_count": 75,
+  "multiple_available_variants_count": 81,
+  "one_available_size_count": 76,
+  "multiple_available_sizes_count": 80,
   "issues": [],
   "products": [
     {
@@ -2682,56 +2682,6 @@
       "effective_price_eur": "32.40"
     },
     {
-      "product_id": "565",
-      "available_variant_count": 5,
-      "available_size_count": 5,
-      "available_sizes": [
-        "11-12 години",
-        "13-14 години",
-        "15-16 години",
-        "7-8 години",
-        "9-10 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "5964",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "7-8 години"
-          }
-        },
-        {
-          "variant_id": "5967",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "9-10 години"
-          }
-        },
-        {
-          "variant_id": "5970",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "11-12 години"
-          }
-        },
-        {
-          "variant_id": "5973",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "13-14 години"
-          }
-        },
-        {
-          "variant_id": "5976",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "15-16 години"
-          }
-        }
-      ],
-      "effective_price_eur": "31.87"
-    },
-    {
       "product_id": "570",
       "available_variant_count": 3,
       "available_size_count": 3,
@@ -3012,106 +2962,6 @@
       "effective_price_eur": "28.90"
     },
     {
-      "product_id": "613",
-      "available_variant_count": 5,
-      "available_size_count": 5,
-      "available_sizes": [
-        "3-4 години",
-        "4-5 години",
-        "5-6 години",
-        "7-8 години",
-        "9-10 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "6401",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "3-4 години"
-          }
-        },
-        {
-          "variant_id": "6404",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "4-5 години"
-          }
-        },
-        {
-          "variant_id": "6407",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "5-6 години"
-          }
-        },
-        {
-          "variant_id": "6410",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "7-8 години"
-          }
-        },
-        {
-          "variant_id": "6413",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "9-10 години"
-          }
-        }
-      ],
-      "effective_price_eur": "24.00"
-    },
-    {
-      "product_id": "619",
-      "available_variant_count": 5,
-      "available_size_count": 5,
-      "available_sizes": [
-        "3-4 години",
-        "4-5 години",
-        "5-6 години",
-        "7-8 години",
-        "9-10 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "6434",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "3-4 години"
-          }
-        },
-        {
-          "variant_id": "6437",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "4-5 години"
-          }
-        },
-        {
-          "variant_id": "6440",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "5-6 години"
-          }
-        },
-        {
-          "variant_id": "6443",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "7-8 години"
-          }
-        },
-        {
-          "variant_id": "6446",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "9-10 години"
-          }
-        }
-      ],
-      "effective_price_eur": "24.00"
-    },
-    {
       "product_id": "628",
       "available_variant_count": 3,
       "available_size_count": 3,
@@ -3270,24 +3120,6 @@
           "quantity": "2",
           "parameters": {
             "Размер": "15-16 години"
-          }
-        }
-      ],
-      "effective_price_eur": "31.87"
-    },
-    {
-      "product_id": "644",
-      "available_variant_count": 1,
-      "available_size_count": 1,
-      "available_sizes": [
-        "9-10 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "6641",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "9-10 години"
           }
         }
       ],
@@ -4160,9 +3992,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-10T20:54:44.346162+00:00",
+  "checked_at_utc": "2026-11-10T22:52:40.973401+00:00",
   "source_sha256": {
     "native": "603ec43d9112bb113f5dcf59fe9442bf4c98e54dc2f123e197a3bf9a9f13bb40",
-    "facebook": "e133dbb27c2425e99c0d1b518efe0dbe09dfd60c088ff6e772047d248ec05cc8"
+    "facebook": "36b914cfb4ad93c7b9cb25f6ac1853d6c0b299168238667951ebca78dfc5aba0"
   }
 }
