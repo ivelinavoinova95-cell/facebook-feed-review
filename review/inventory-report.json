@@ -3,7 +3,7 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 200,
+  "native_product_count": 196,
   "feed_product_count": 156,
   "one_available_variant_count": 75,
   "multiple_available_variants_count": 81,
@@ -3879,7 +3879,7 @@
         },
         {
           "variant_id": "7399",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "9-10 години"
           }
@@ -3992,9 +3992,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-10T22:52:40.973401+00:00",
+  "checked_at_utc": "2026-11-11T01:16:22.399385+00:00",
   "source_sha256": {
-    "native": "603ec43d9112bb113f5dcf59fe9442bf4c98e54dc2f123e197a3bf9a9f13bb40",
+    "native": "a1a65259c085360c9501a7d4650f50b4e8e345e7fc81108483d3637d5c351f09",
     "facebook": "36b914cfb4ad93c7b9cb25f6ac1853d6c0b299168238667951ebca78dfc5aba0"
   }
 }
