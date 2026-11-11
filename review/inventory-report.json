@@ -3,18 +3,13 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 196,
+  "native_product_count": 197,
   "feed_product_count": 157,
-  "one_available_variant_count": 78,
-  "multiple_available_variants_count": 78,
-  "one_available_size_count": 79,
-  "multiple_available_sizes_count": 77,
-  "issues": [
-    {
-      "product_id": "648",
-      "reason": "missing_native_product"
-    }
-  ],
+  "one_available_variant_count": 77,
+  "multiple_available_variants_count": 80,
+  "one_available_size_count": 78,
+  "multiple_available_sizes_count": 79,
+  "issues": [],
   "products": [
     {
       "product_id": "3",
@@ -3012,12 +3007,20 @@
     },
     {
       "product_id": "634",
-      "available_variant_count": 1,
-      "available_size_count": 1,
+      "available_variant_count": 2,
+      "available_size_count": 2,
       "available_sizes": [
-        "11-12 години"
+        "11-12 години",
+        "5-6 години"
       ],
       "available_variants": [
+        {
+          "variant_id": "6548",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "5-6 години"
+          }
+        },
         {
           "variant_id": "6557",
           "quantity": "1",
@@ -3177,6 +3180,32 @@
           "quantity": "2",
           "parameters": {
             "Размер": "7-8 години"
+          }
+        }
+      ],
+      "effective_price_eur": "21.20"
+    },
+    {
+      "product_id": "648",
+      "available_variant_count": 2,
+      "available_size_count": 2,
+      "available_sizes": [
+        "3-4 години",
+        "4-5 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6678",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
+        {
+          "variant_id": "6681",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "4-5 години"
           }
         }
       ],
@@ -3973,9 +4002,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-11T17:05:08.377353+00:00",
+  "checked_at_utc": "2026-11-11T19:08:05.164079+00:00",
   "source_sha256": {
-    "native": "f5039213b8893e65ec12eb9fcb2b093cf350ac6194465ce4d3dba0a42f5243fc",
+    "native": "b983164eb3b856efe48106256edf6fc47ef7946f2cec3929eda23f60e74e944f",
     "facebook": "b0fb09ae199bc21f4fcb4610706d9c421a5b6962733eb8e31bdb61f9d95b51e0"
   }
 }
