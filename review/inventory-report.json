@@ -5,10 +5,10 @@
   "meta_snapshot_supplied": false,
   "native_product_count": 196,
   "feed_product_count": 156,
-  "one_available_variant_count": 75,
-  "multiple_available_variants_count": 81,
-  "one_available_size_count": 76,
-  "multiple_available_sizes_count": 80,
+  "one_available_variant_count": 78,
+  "multiple_available_variants_count": 78,
+  "one_available_size_count": 79,
+  "multiple_available_sizes_count": 77,
   "issues": [],
   "products": [
     {
@@ -1510,20 +1510,12 @@
     },
     {
       "product_id": "280",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "M",
-        "S"
+        "M"
       ],
       "available_variants": [
-        {
-          "variant_id": "2277",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "S"
-          }
-        },
         {
           "variant_id": "2278",
           "quantity": "2",
@@ -2735,20 +2727,12 @@
     },
     {
       "product_id": "578",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "12-13 години",
         "14-15 години"
       ],
       "available_variants": [
-        {
-          "variant_id": "6065",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "12-13 години"
-          }
-        },
         {
           "variant_id": "6071",
           "quantity": "1",
@@ -3523,10 +3507,9 @@
     },
     {
       "product_id": "747",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "L",
         "S"
       ],
       "available_variants": [
@@ -3535,13 +3518,6 @@
           "quantity": "1",
           "parameters": {
             "Размер": "S"
-          }
-        },
-        {
-          "variant_id": "7128",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "L"
           }
         }
       ],
@@ -3992,9 +3968,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-11T11:09:19.549528+00:00",
+  "checked_at_utc": "2026-11-11T13:21:35.287192+00:00",
   "source_sha256": {
-    "native": "8e515db73196f0de2ed715cda41632b546f86905f8a2200ce622fb06289c614f",
-    "facebook": "41494318db059f96ada95a19f261eb70c292887db54fbeb66f36cc88be7e77aa"
+    "native": "f5039213b8893e65ec12eb9fcb2b093cf350ac6194465ce4d3dba0a42f5243fc",
+    "facebook": "7788b0ae82995bee1529b53c922a3185896579b04309d1bab78e45ddf5c65428"
   }
 }
