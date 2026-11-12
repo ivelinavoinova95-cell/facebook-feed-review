@@ -4,10 +4,10 @@
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
   "native_product_count": 197,
-  "feed_product_count": 157,
-  "one_available_variant_count": 78,
+  "feed_product_count": 156,
+  "one_available_variant_count": 77,
   "multiple_available_variants_count": 79,
-  "one_available_size_count": 79,
+  "one_available_size_count": 78,
   "multiple_available_sizes_count": 78,
   "issues": [],
   "products": [
@@ -3550,24 +3550,6 @@
       "effective_price_eur": "32.00"
     },
     {
-      "product_id": "750",
-      "available_variant_count": 1,
-      "available_size_count": 1,
-      "available_sizes": [
-        "2XL"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "7143",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "2XL"
-          }
-        }
-      ],
-      "effective_price_eur": "32.00"
-    },
-    {
       "product_id": "753",
       "available_variant_count": 2,
       "available_size_count": 2,
@@ -3994,9 +3976,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-12T02:59:20.136502+00:00",
+  "checked_at_utc": "2026-11-12T05:10:48.267628+00:00",
   "source_sha256": {
     "native": "0c7fe96b64e133144017236261b9e1280d75e84f47520fd14074909f3a7641d9",
-    "facebook": "b0fb09ae199bc21f4fcb4610706d9c421a5b6962733eb8e31bdb61f9d95b51e0"
+    "facebook": "514f2d53d52e46b550766f6feb5aa525f9397080bef0ca6cb9517e6665f816df"
   }
 }
