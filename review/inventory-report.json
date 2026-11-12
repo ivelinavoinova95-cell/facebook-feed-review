@@ -5,10 +5,10 @@
   "meta_snapshot_supplied": false,
   "native_product_count": 196,
   "feed_product_count": 156,
-  "one_available_variant_count": 77,
-  "multiple_available_variants_count": 79,
-  "one_available_size_count": 78,
-  "multiple_available_sizes_count": 78,
+  "one_available_variant_count": 78,
+  "multiple_available_variants_count": 78,
+  "one_available_size_count": 79,
+  "multiple_available_sizes_count": 77,
   "issues": [],
   "products": [
     {
@@ -3847,20 +3847,12 @@
     },
     {
       "product_id": "787",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "7-8 години",
         "9-10 години"
       ],
       "available_variants": [
-        {
-          "variant_id": "7396",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "7-8 години"
-          }
-        },
         {
           "variant_id": "7399",
           "quantity": "1",
@@ -3976,9 +3968,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-12T11:15:03.055673+00:00",
+  "checked_at_utc": "2026-11-12T13:25:16.867648+00:00",
   "source_sha256": {
-    "native": "3c0ed2b55b713e450c5d18492ebc316b27c2e4411ae084887576e188537796ed",
+    "native": "f0d1ad06f5b2ec4acef14047f3e9008d073f67c3633d32522089ad8e12efc98d",
     "facebook": "08d3cd9ddd8144760b90585e202e714c99218deca39ac35a0484d42527f0a6bc"
   }
 }
