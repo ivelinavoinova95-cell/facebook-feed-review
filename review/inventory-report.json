@@ -3080,7 +3080,7 @@
         },
         {
           "variant_id": "6628",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "9-10 години"
           }
@@ -3223,22 +3223,14 @@
     },
     {
       "product_id": "711",
-      "available_variant_count": 4,
-      "available_size_count": 4,
+      "available_variant_count": 3,
+      "available_size_count": 3,
       "available_sizes": [
         "2XL",
         "M",
-        "S",
         "XL"
       ],
       "available_variants": [
-        {
-          "variant_id": "7008",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "S"
-          }
-        },
         {
           "variant_id": "7011",
           "quantity": "1",
@@ -3968,9 +3960,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-12T22:56:10.441380+00:00",
+  "checked_at_utc": "2026-11-13T01:20:21.847781+00:00",
   "source_sha256": {
-    "native": "f0d1ad06f5b2ec4acef14047f3e9008d073f67c3633d32522089ad8e12efc98d",
+    "native": "f714babf525bd3489fffdb8c0b51db8be9e87a260649fed4c6ea83f31345055f",
     "facebook": "9c86febb9c13f5e969487459e4229b7d675592f65a11287a50d08acf370a14c8"
   }
 }
