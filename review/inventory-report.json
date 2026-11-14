@@ -3,7 +3,7 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 193,
+  "native_product_count": 192,
   "feed_product_count": 152,
   "one_available_variant_count": 76,
   "multiple_available_variants_count": 76,
@@ -3856,9 +3856,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-14T10:52:24.549117+00:00",
+  "checked_at_utc": "2026-11-14T13:01:35.238486+00:00",
   "source_sha256": {
-    "native": "f2e4c2f12ea210530a8f90bc93f750c077850cf756adc0ef16ca06b6d701a82a",
+    "native": "751cf4168a9c266d5b4ad94351124df22357ee2352d7b182a19e76633eed7cb1",
     "facebook": "3bd8947b9f11145fa76d35c85b16ff6a9fdac2380a0cb46ab00b6cb527644f6f"
   }
 }
