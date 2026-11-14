@@ -4,12 +4,25 @@
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
   "native_product_count": 192,
-  "feed_product_count": 151,
+  "feed_product_count": 154,
   "one_available_variant_count": 75,
   "multiple_available_variants_count": 76,
   "one_available_size_count": 76,
   "multiple_available_sizes_count": 75,
-  "issues": [],
+  "issues": [
+    {
+      "product_id": "819",
+      "reason": "missing_native_product"
+    },
+    {
+      "product_id": "820",
+      "reason": "missing_native_product"
+    },
+    {
+      "product_id": "821",
+      "reason": "missing_native_product"
+    }
+  ],
   "products": [
     {
       "product_id": "3",
@@ -3838,9 +3851,9 @@
       "effective_price_eur": "56.00"
     }
   ],
-  "checked_at_utc": "2026-11-14T14:52:09.744197+00:00",
+  "checked_at_utc": "2026-11-14T16:50:49.706746+00:00",
   "source_sha256": {
     "native": "751cf4168a9c266d5b4ad94351124df22357ee2352d7b182a19e76633eed7cb1",
-    "facebook": "d6b3ff852b1767fb0beaa22153076f7477eff53a2a59ef54991ebec7a7219bb2"
+    "facebook": "163b9ef46a42f2f517e7103924dbd9f632a401f19a869b6c493f0c355f91f851"
   }
 }
