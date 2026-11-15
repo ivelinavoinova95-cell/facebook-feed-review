@@ -3,7 +3,7 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 192,
+  "native_product_count": 190,
   "feed_product_count": 150,
   "one_available_variant_count": 77,
   "multiple_available_variants_count": 73,
@@ -1034,7 +1034,7 @@
         },
         {
           "variant_id": "2118",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "XL"
           }
@@ -3852,9 +3852,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-15T18:51:16.896226+00:00",
+  "checked_at_utc": "2026-11-15T23:58:38.391644+00:00",
   "source_sha256": {
-    "native": "ed7942c7dabf88a81f65573aa5d2b2dd2ae10b71f78c4d8b0c577ff55b2efff7",
-    "facebook": "02a3d98c8f7a899e80fc6b41fe3993b9f9381b0f1809999a53d3895d0e5d5d1c"
+    "native": "43b332d737ea8929d9d681ab5edc90738c14ab771067f4ab0d6669acba6167bb",
+    "facebook": "eebe80d726c824e6bd0e030e1fff28bddbbb6c90ecf8984edd3609487c1f498e"
   }
 }
