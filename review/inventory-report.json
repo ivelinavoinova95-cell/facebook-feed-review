@@ -1254,7 +1254,7 @@
       "available_variants": [
         {
           "variant_id": "2215",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "L"
           }
@@ -3223,7 +3223,7 @@
         },
         {
           "variant_id": "7062",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "L"
           }
@@ -3852,9 +3852,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-15T23:58:38.391644+00:00",
+  "checked_at_utc": "2026-11-16T06:29:37.050906+00:00",
   "source_sha256": {
-    "native": "43b332d737ea8929d9d681ab5edc90738c14ab771067f4ab0d6669acba6167bb",
+    "native": "94a5b363b83efd5460828d49f1b9d58e49b6128bccecf52746032b18c3fbe2a1",
     "facebook": "eebe80d726c824e6bd0e030e1fff28bddbbb6c90ecf8984edd3609487c1f498e"
   }
 }

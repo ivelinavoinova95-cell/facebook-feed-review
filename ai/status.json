@@ -3,7 +3,7 @@
   "product_count": 150,
   "active_sale_count": 49,
   "source_generation_age_known": false,
-  "built_at_utc": "2026-11-15T23:58:38.258083+00:00",
+  "built_at_utc": "2026-11-16T06:29:36.884367+00:00",
   "source_sha256": "eebe80d726c824e6bd0e030e1fff28bddbbb6c90ecf8984edd3609487c1f498e",
   "output_sha256": "a6230b098039ef5b3e692aa59bbd7f93472e901c4a206a356ab2cb0228862794",
   "only_changed_field": "custom_label_3",
