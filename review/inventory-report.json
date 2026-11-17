@@ -3,11 +3,11 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 188,
-  "feed_product_count": 148,
-  "one_available_variant_count": 77,
+  "native_product_count": 189,
+  "feed_product_count": 149,
+  "one_available_variant_count": 78,
   "multiple_available_variants_count": 71,
-  "one_available_size_count": 78,
+  "one_available_size_count": 79,
   "multiple_available_sizes_count": 70,
   "issues": [],
   "products": [
@@ -3191,21 +3191,13 @@
     },
     {
       "product_id": "729",
-      "available_variant_count": 3,
-      "available_size_count": 3,
+      "available_variant_count": 2,
+      "available_size_count": 2,
       "available_sizes": [
         "L",
-        "M",
-        "S"
+        "M"
       ],
       "available_variants": [
-        {
-          "variant_id": "7056",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "S"
-          }
-        },
         {
           "variant_id": "7059",
           "quantity": "2",
@@ -3282,6 +3274,24 @@
         }
       ],
       "effective_price_eur": "34.00"
+    },
+    {
+      "product_id": "750",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "2XL"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7143",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "2XL"
+          }
+        }
+      ],
+      "effective_price_eur": "32.00"
     },
     {
       "product_id": "756",
@@ -3689,7 +3699,7 @@
       "available_variants": [
         {
           "variant_id": "7639",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "3-4 години"
           }
@@ -3776,9 +3786,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-17T13:26:28.399217+00:00",
+  "checked_at_utc": "2026-11-17T22:24:21.337499+00:00",
   "source_sha256": {
-    "native": "3be3c0ccb040db28b292a30d405429abb62cfdd4a176e3cf2cea1963f8cef2bb",
-    "facebook": "934ef1115d7d8c3d5bfaa8f8afa06211a4395dae39755fe2335e37ded846d449"
+    "native": "254a8febef253191900ec26762293f07ed34422b40096f61ffcd4c9f54013c80",
+    "facebook": "df33392d71d3274c3138d1183afe8a39add3243e0c4224dadca61cda8e81c446"
   }
 }
