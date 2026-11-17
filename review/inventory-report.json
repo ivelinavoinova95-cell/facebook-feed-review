@@ -5,10 +5,10 @@
   "meta_snapshot_supplied": false,
   "native_product_count": 190,
   "feed_product_count": 150,
-  "one_available_variant_count": 78,
-  "multiple_available_variants_count": 72,
-  "one_available_size_count": 79,
-  "multiple_available_sizes_count": 71,
+  "one_available_variant_count": 79,
+  "multiple_available_variants_count": 71,
+  "one_available_size_count": 80,
+  "multiple_available_sizes_count": 70,
   "issues": [],
   "products": [
     {
@@ -3311,20 +3311,12 @@
     },
     {
       "product_id": "753",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "M",
-        "S"
+        "M"
       ],
       "available_variants": [
-        {
-          "variant_id": "7146",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "S"
-          }
-        },
         {
           "variant_id": "7149",
           "quantity": "1",
@@ -3529,12 +3521,11 @@
     },
     {
       "product_id": "781",
-      "available_variant_count": 3,
-      "available_size_count": 3,
+      "available_variant_count": 2,
+      "available_size_count": 2,
       "available_sizes": [
         "4-5 години",
-        "5-6 години",
-        "9-10 години"
+        "5-6 години"
       ],
       "available_variants": [
         {
@@ -3549,13 +3540,6 @@
           "quantity": "2",
           "parameters": {
             "Размер": "5-6 години"
-          }
-        },
-        {
-          "variant_id": "7339",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "9-10 години"
           }
         }
       ],
@@ -3844,9 +3828,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-16T18:32:51.768427+00:00",
+  "checked_at_utc": "2026-11-17T02:56:08.241780+00:00",
   "source_sha256": {
-    "native": "62714d5b15d568ad8d3ec4bb5ee9f761aa65f5da4f609c38c4f7e04d3b56ced9",
+    "native": "7ebb50827b19dfd9f977b3742b35ccc5f94c241a46fc4df9a03bb48bec5e1a75",
     "facebook": "f0fed74085f031ac09e844ba76b657486446010d701ec85c664e04c21e941699"
   }
 }
