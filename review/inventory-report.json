@@ -3,12 +3,12 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 187,
-  "feed_product_count": 147,
+  "native_product_count": 188,
+  "feed_product_count": 148,
   "one_available_variant_count": 75,
-  "multiple_available_variants_count": 72,
+  "multiple_available_variants_count": 73,
   "one_available_size_count": 76,
-  "multiple_available_sizes_count": 71,
+  "multiple_available_sizes_count": 72,
   "issues": [],
   "products": [
     {
@@ -2568,6 +2568,56 @@
       "effective_price_eur": "32.40"
     },
     {
+      "product_id": "565",
+      "available_variant_count": 5,
+      "available_size_count": 5,
+      "available_sizes": [
+        "11-12 години",
+        "13-14 години",
+        "15-16 години",
+        "7-8 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5964",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "7-8 години"
+          }
+        },
+        {
+          "variant_id": "5967",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        },
+        {
+          "variant_id": "5970",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "11-12 години"
+          }
+        },
+        {
+          "variant_id": "5973",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "13-14 години"
+          }
+        },
+        {
+          "variant_id": "5976",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "15-16 години"
+          }
+        }
+      ],
+      "effective_price_eur": "31.87"
+    },
+    {
       "product_id": "570",
       "available_variant_count": 3,
       "available_size_count": 3,
@@ -3758,9 +3808,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-19T20:37:31.513136+00:00",
+  "checked_at_utc": "2026-11-20T03:15:25.064431+00:00",
   "source_sha256": {
-    "native": "5f74741fac220bdf58705a9271403c6c3d493872eaacd0e5344cf29b2017c793",
-    "facebook": "43f178f3b47013a583355546bdda45216466bfd153081a8d9df6a145eba7b2d0"
+    "native": "8c72acad7f5534aa7fe691e1b2b4ff2e34be0f651fe60dd30c91872dc8bc1c1a",
+    "facebook": "f5e832ad2dbdd33c0dedd1fc32b5e68e6e59419040639af318aa46e3e92f58ab"
   }
 }
