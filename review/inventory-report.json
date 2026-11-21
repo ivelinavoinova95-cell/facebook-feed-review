@@ -3,11 +3,11 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 191,
-  "feed_product_count": 151,
-  "one_available_variant_count": 77,
+  "native_product_count": 190,
+  "feed_product_count": 150,
+  "one_available_variant_count": 76,
   "multiple_available_variants_count": 74,
-  "one_available_size_count": 78,
+  "one_available_size_count": 77,
   "multiple_available_sizes_count": 73,
   "issues": [],
   "products": [
@@ -2964,24 +2964,6 @@
       "effective_price_eur": "21.20"
     },
     {
-      "product_id": "633",
-      "available_variant_count": 1,
-      "available_size_count": 1,
-      "available_sizes": [
-        "5-6 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "6532",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "5-6 години"
-          }
-        }
-      ],
-      "effective_price_eur": "26.60"
-    },
-    {
       "product_id": "639",
       "available_variant_count": 1,
       "available_size_count": 1,
@@ -3926,9 +3908,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-20T21:48:56.682046+00:00",
+  "checked_at_utc": "2026-11-21T03:13:40.008718+00:00",
   "source_sha256": {
-    "native": "2df855aa1d0915b39fb7325471141ce8c7707336d2138b216a1d70c9386186da",
-    "facebook": "978b7bd0f972450ce692956629e029c90d5c4d9c4124ec7537678f51011d6fef"
+    "native": "ed7b5b977e21b4bc9fe256871eacf9ff20eb0c562276648e2eb24aff37f07f5a",
+    "facebook": "65da77f74704d88b7057257dbe7b20d8819e9dc71091439756c7da070bcbd02f"
   }
 }
