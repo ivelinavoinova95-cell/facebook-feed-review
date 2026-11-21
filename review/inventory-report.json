@@ -2503,7 +2503,7 @@
       "available_variants": [
         {
           "variant_id": "5935",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "S"
           }
@@ -3908,9 +3908,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-21T12:38:55.604690+00:00",
+  "checked_at_utc": "2026-11-21T20:32:00.684416+00:00",
   "source_sha256": {
-    "native": "ed7b5b977e21b4bc9fe256871eacf9ff20eb0c562276648e2eb24aff37f07f5a",
-    "facebook": "15393ed8ebfbf0f5e5262f884dc076fe4179cbee2d43c259953111b70b1dd0c4"
+    "native": "d488f3cbfd43762f38d1ea9fa77c39c5f7ab48cf6ab16f100719d15ba6ecc3ae",
+    "facebook": "4f1f848635e2eadff2e8ed595a5949c966c32d25a2698f47cc621d0b703b476e"
   }
 }
