@@ -3250,7 +3250,7 @@
         },
         {
           "variant_id": "7044",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "M"
           }
@@ -3890,9 +3890,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-22T17:49:56.340264+00:00",
+  "checked_at_utc": "2026-11-22T23:37:20.630957+00:00",
   "source_sha256": {
-    "native": "2dc8f8717344f0becc74c961920932af3771f079f7d74daaaa0f07986477b752",
-    "facebook": "9b67cc3a0fbaa250e19f888e410c85ced157f8267dc43cf9e58d00a917d6f60a"
+    "native": "ca07d90757828edbab91ff0fab7eecc8ec61d4e050cb4e9edc6d36ee704762f9",
+    "facebook": "9ab1a63f91c8fb2a9513f41268d53b0fa9c0154de2b854b73298f88481d948f8"
   }
 }
