@@ -3890,9 +3890,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-22T09:49:46.696358+00:00",
+  "checked_at_utc": "2026-11-22T17:49:56.340264+00:00",
   "source_sha256": {
     "native": "2dc8f8717344f0becc74c961920932af3771f079f7d74daaaa0f07986477b752",
-    "facebook": "21a39b4efb20d1821b6541df879fa09810b63ee5bcf8e5cb77290688cd5e0d6b"
+    "facebook": "9b67cc3a0fbaa250e19f888e410c85ced157f8267dc43cf9e58d00a917d6f60a"
   }
 }
