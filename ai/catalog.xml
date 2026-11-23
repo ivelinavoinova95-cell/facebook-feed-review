@@ -2685,7 +2685,7 @@
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>2</g:inventory>
 <g:custom_label_0>new</g:custom_label_0>
-<g:custom_label_1 />
+<g:custom_label_1>featured</g:custom_label_1>
 <g:custom_label_2 />
 <g:custom_label_3>31,87 EUR</g:custom_label_3>
 </item>
@@ -2901,7 +2901,7 @@
 <g:shipping_weight>0.200 kg</g:shipping_weight>
 <g:price>28.90 EUR</g:price>
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
-<g:inventory>3</g:inventory>
+<g:inventory>2</g:inventory>
 <g:custom_label_0 />
 <g:custom_label_1 />
 <g:custom_label_2 />
@@ -2923,7 +2923,7 @@
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>1</g:inventory>
 <g:custom_label_0>new</g:custom_label_0>
-<g:custom_label_1 />
+<g:custom_label_1>featured</g:custom_label_1>
 <g:custom_label_2 />
 <g:custom_label_3>24,00 EUR</g:custom_label_3>
 </item>
@@ -2943,7 +2943,7 @@
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfit Sets</g:google_product_category>
 <g:inventory>2</g:inventory>
 <g:custom_label_0>new</g:custom_label_0>
-<g:custom_label_1 />
+<g:custom_label_1>featured</g:custom_label_1>
 <g:custom_label_2 />
 <g:custom_label_3>24,00 EUR</g:custom_label_3>
 </item>
@@ -2980,27 +2980,6 @@
 <g:adult>no</g:adult>
 <g:shipping_weight>0.200 kg</g:shipping_weight>
 <g:additional_image_link>https://cdn.cloudcart.com/43479/products/639/bebeski-komplekt-ot-3-casti-s-kaculka-v-cvat-menta-6abeb561a6bd5.jpeg?v=1791214930</g:additional_image_link>
-<g:price>18.00 EUR</g:price>
-<g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Baby &amp; Toddler Clothing</g:google_product_category>
-<g:inventory>1</g:inventory>
-<g:custom_label_0 />
-<g:custom_label_1 />
-<g:custom_label_2 />
-<g:custom_label_3>18,00 EUR</g:custom_label_3>
-</item>
-<item>
-<g:id>640</g:id>
-<g:title>Бебешки комплект от 3 части с Мики Маус в бежово / УМАЛЕН / Код 640</g:title>
-<g:description>Бебешки комплект от 3 части в бежови тонове с принт на Мики Маус и декоративни монограми. Съчетава горнище с качулка, бяла блуза и панталон за завършена ежедневна визия. Горнището се закопчава с цип, а панталонът е с ластична талия и прибрани крачоли. Трите части могат да се носят заедно или да се комбинират с други дрешки. Характеристики Комплект от 3 части Горнище с дълъг ръкав, качулка и цип Бяла блуза с дълъг ръкав и принт отпред Панталон с ластична талия и принтирани странични панели Принт на Мики Маус и декоративни монограми Основен цвят: бежов Размери: 6, 12, 18 и 24 месеца Код на продукта: 640 Обувките и декорацията на снимката не са включени.</g:description>
-<g:link>https://www.drehizavseki.com/product/bebeshki-komplekt-3-chasti-miki-maus-bejov?cv=6604&amp;utm_source=fbs&amp;utm_medium=fbm&amp;utm_campaign=fbc</g:link>
-<g:image_link>https://cdn.cloudcart.com/43479/products/640/bebeski-komplekt-ot-3-casti-s-miki-maus-v-bezovo--kod-640-6ae0f5439d600.jpeg?v=1793127747</g:image_link>
-<g:availability>in stock</g:availability>
-<g:product_type>Деца &gt; Бебе &gt; Дрехи за бебе</g:product_type>
-<g:brand>Гардеробна Вълшебница - Дрехи за всеки</g:brand>
-<g:condition>new</g:condition>
-<g:adult>no</g:adult>
-<g:shipping_weight>0.200 kg</g:shipping_weight>
-<g:additional_image_link>https://cdn.cloudcart.com/43479/products/640/bebeski-komplekt-ot-3-casti-s-kaculka-v-cvat-menta--kod-639-copy-6abeb9f8d9c8a.jpeg?v=1793133570</g:additional_image_link>
 <g:price>18.00 EUR</g:price>
 <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Baby &amp; Toddler Clothing</g:google_product_category>
 <g:inventory>1</g:inventory>
