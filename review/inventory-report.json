@@ -3,12 +3,12 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 189,
-  "feed_product_count": 149,
+  "native_product_count": 188,
+  "feed_product_count": 148,
   "one_available_variant_count": 75,
-  "multiple_available_variants_count": 74,
+  "multiple_available_variants_count": 73,
   "one_available_size_count": 76,
-  "multiple_available_sizes_count": 73,
+  "multiple_available_sizes_count": 72,
   "issues": [],
   "products": [
     {
@@ -2795,11 +2795,10 @@
     },
     {
       "product_id": "599",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "3-4 години",
-        "4-5 години"
+        "3-4 години"
       ],
       "available_variants": [
         {
@@ -2808,34 +2807,9 @@
           "parameters": {
             "Размер": "3-4 години"
           }
-        },
-        {
-          "variant_id": "6252",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "4-5 години"
-          }
         }
       ],
       "effective_price_eur": "18.90"
-    },
-    {
-      "product_id": "609",
-      "available_variant_count": 1,
-      "available_size_count": 1,
-      "available_sizes": [
-        "5-6 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "6375",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "5-6 години"
-          }
-        }
-      ],
-      "effective_price_eur": "28.90"
     },
     {
       "product_id": "613",
@@ -3019,7 +2993,7 @@
         },
         {
           "variant_id": "6631",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "11-12 години"
           }
@@ -3874,9 +3848,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-24T04:49:24.029124+00:00",
+  "checked_at_utc": "2026-11-24T17:44:25.824518+00:00",
   "source_sha256": {
-    "native": "dd0a12421d1bba79b5ee7614348b99fbf9e2d64c77a6955310f0731b91b063e2",
-    "facebook": "f173de363bc9e460da1f6d5871b722031eb5798f912b1fe3d06b90a7ad962e8e"
+    "native": "f0eef23e872f748f341252a8fdc7a15d2812f7d3986e05926e69932e44f83381",
+    "facebook": "f8c8d816e3f6fb575aa9fd9252cd99fe88a84017aa1bd7ec3d1a2a5d7208d40f"
   }
 }
