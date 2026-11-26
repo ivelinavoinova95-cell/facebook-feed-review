@@ -3,12 +3,12 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 188,
-  "feed_product_count": 148,
-  "one_available_variant_count": 76,
-  "multiple_available_variants_count": 72,
-  "one_available_size_count": 77,
-  "multiple_available_sizes_count": 71,
+  "native_product_count": 189,
+  "feed_product_count": 149,
+  "one_available_variant_count": 78,
+  "multiple_available_variants_count": 71,
+  "one_available_size_count": 79,
+  "multiple_available_sizes_count": 70,
   "issues": [],
   "products": [
     {
@@ -2230,6 +2230,24 @@
       "effective_price_eur": "2.33"
     },
     {
+      "product_id": "488",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "12 месеца"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "5299",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "12 месеца"
+          }
+        }
+      ],
+      "effective_price_eur": "18.00"
+    },
+    {
       "product_id": "504",
       "available_variant_count": 1,
       "available_size_count": 1,
@@ -2743,11 +2761,10 @@
     },
     {
       "product_id": "593",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "1-2 години",
-        "2-3 години"
+        "1-2 години"
       ],
       "available_variants": [
         {
@@ -2756,16 +2773,27 @@
           "parameters": {
             "Размер": "1-2 години"
           }
-        },
-        {
-          "variant_id": "6209",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "2-3 години"
-          }
         }
       ],
       "effective_price_eur": "18.00"
+    },
+    {
+      "product_id": "596",
+      "available_variant_count": 1,
+      "available_size_count": 1,
+      "available_sizes": [
+        "1-2 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "6220",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "1-2 години"
+          }
+        }
+      ],
+      "effective_price_eur": "18.60"
     },
     {
       "product_id": "598",
@@ -3586,24 +3614,6 @@
       "effective_price_eur": "28.40"
     },
     {
-      "product_id": "787",
-      "available_variant_count": 1,
-      "available_size_count": 1,
-      "available_sizes": [
-        "7-8 години"
-      ],
-      "available_variants": [
-        {
-          "variant_id": "7396",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "7-8 години"
-          }
-        }
-      ],
-      "effective_price_eur": "28.40"
-    },
-    {
       "product_id": "790",
       "available_variant_count": 1,
       "available_size_count": 1,
@@ -3626,22 +3636,22 @@
       "available_variant_count": 2,
       "available_size_count": 2,
       "available_sizes": [
-        "24 месеца",
+        "18 месеца",
         "6 месеца"
       ],
       "available_variants": [
         {
           "variant_id": "7421",
-          "quantity": "1",
+          "quantity": "2",
           "parameters": {
             "Размер": "6 месеца"
           }
         },
         {
-          "variant_id": "7430",
+          "variant_id": "7427",
           "quantity": "1",
           "parameters": {
-            "Размер": "24 месеца"
+            "Размер": "18 месеца"
           }
         }
       ],
@@ -3769,14 +3779,14 @@
         },
         {
           "variant_id": "7658",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "5-6 години"
           }
         },
         {
           "variant_id": "7661",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "7-8 години"
           }
@@ -3792,9 +3802,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-26T10:53:44.591875+00:00",
+  "checked_at_utc": "2026-11-26T21:31:46.807405+00:00",
   "source_sha256": {
-    "native": "de9c93b6e3da96977524e4ef999080e7272bdca148997ec65fe10951b254cd10",
-    "facebook": "90a41f59a58b0b370d1efe2380a480f7b5c7eaaad857e607200d6d46e54545a4"
+    "native": "227bfc734a3e9c326302672b6226b96508ec69f493819711e21f4e8c9a15f1b6",
+    "facebook": "932ec5e79f0ba28da941e8f76db5dd71d9ee9db3465aa66e16e27f736fc8686c"
   }
 }
