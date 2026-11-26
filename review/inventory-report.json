@@ -5,10 +5,10 @@
   "meta_snapshot_supplied": false,
   "native_product_count": 188,
   "feed_product_count": 148,
-  "one_available_variant_count": 75,
-  "multiple_available_variants_count": 73,
-  "one_available_size_count": 76,
-  "multiple_available_sizes_count": 72,
+  "one_available_variant_count": 76,
+  "multiple_available_variants_count": 72,
+  "one_available_size_count": 77,
+  "multiple_available_sizes_count": 71,
   "issues": [],
   "products": [
     {
@@ -3229,20 +3229,12 @@
     },
     {
       "product_id": "729",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "L",
-        "M"
+        "L"
       ],
       "available_variants": [
-        {
-          "variant_id": "7059",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "M"
-          }
-        },
         {
           "variant_id": "7062",
           "quantity": "1",
@@ -3800,9 +3792,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-26T00:20:54.647187+00:00",
+  "checked_at_utc": "2026-11-26T10:53:44.591875+00:00",
   "source_sha256": {
-    "native": "98bd64dd38063a128f25d65bc3857f91f23a4cb7579e0549578bfce8bac04de0",
-    "facebook": "afe1f7b7d04c3e23a5330cc7719fe976f1f5a15b478b4be27673893242fcd2ff"
+    "native": "de9c93b6e3da96977524e4ef999080e7272bdca148997ec65fe10951b254cd10",
+    "facebook": "90a41f59a58b0b370d1efe2380a480f7b5c7eaaad857e607200d6d46e54545a4"
   }
 }
