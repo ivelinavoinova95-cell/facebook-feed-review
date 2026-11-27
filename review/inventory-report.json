@@ -3,7 +3,7 @@
   "ready_for_meta_import": false,
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
-  "native_product_count": 189,
+  "native_product_count": 190,
   "feed_product_count": 149,
   "one_available_variant_count": 78,
   "multiple_available_variants_count": 71,
@@ -1044,7 +1044,7 @@
         },
         {
           "variant_id": "2116",
-          "quantity": "4",
+          "quantity": "3",
           "parameters": {
             "Размер": "M"
           }
@@ -2859,13 +2859,21 @@
     },
     {
       "product_id": "619",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 3,
+      "available_size_count": 3,
       "available_sizes": [
+        "3-4 години",
         "4-5 години",
         "5-6 години"
       ],
       "available_variants": [
+        {
+          "variant_id": "6434",
+          "quantity": "2",
+          "parameters": {
+            "Размер": "3-4 години"
+          }
+        },
         {
           "variant_id": "6437",
           "quantity": "2",
@@ -3778,9 +3786,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-27T13:57:02.473423+00:00",
+  "checked_at_utc": "2026-11-27T22:42:47.466479+00:00",
   "source_sha256": {
-    "native": "4d096c67aeb3f6fd05ea7225f684583d8084a7a61b2b4d43a98cb19e3bca0869",
-    "facebook": "e76dcb8df62239217c3f451c069ce8d5f7880fa06443a8ad48a9a6381e2026fe"
+    "native": "5c1187fd84cd7e1b141908a1d76d6eac26575f4173ff3828dc4483fab3d7e9d1",
+    "facebook": "1d89c3a144da433a85654fb59505956d43b816acf9e21a4c01b90cf4e8406139"
   }
 }
