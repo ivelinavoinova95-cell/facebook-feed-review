@@ -5,10 +5,10 @@
   "meta_snapshot_supplied": false,
   "native_product_count": 190,
   "feed_product_count": 150,
-  "one_available_variant_count": 78,
-  "multiple_available_variants_count": 72,
-  "one_available_size_count": 79,
-  "multiple_available_sizes_count": 71,
+  "one_available_variant_count": 79,
+  "multiple_available_variants_count": 71,
+  "one_available_size_count": 80,
+  "multiple_available_sizes_count": 70,
   "issues": [],
   "products": [
     {
@@ -2151,10 +2151,9 @@
     },
     {
       "product_id": "416",
-      "available_variant_count": 2,
-      "available_size_count": 2,
+      "available_variant_count": 1,
+      "available_size_count": 1,
       "available_sizes": [
-        "2XL",
         "S"
       ],
       "available_variants": [
@@ -2163,13 +2162,6 @@
           "quantity": "1",
           "parameters": {
             "Размер": "S"
-          }
-        },
-        {
-          "variant_id": "4724",
-          "quantity": "1",
-          "parameters": {
-            "Размер": "2XL"
           }
         }
       ],
@@ -2825,12 +2817,11 @@
     },
     {
       "product_id": "613",
-      "available_variant_count": 3,
-      "available_size_count": 3,
+      "available_variant_count": 2,
+      "available_size_count": 2,
       "available_sizes": [
         "4-5 години",
-        "5-6 години",
-        "7-8 години"
+        "5-6 години"
       ],
       "available_variants": [
         {
@@ -2842,16 +2833,9 @@
         },
         {
           "variant_id": "6407",
-          "quantity": "2",
+          "quantity": "1",
           "parameters": {
             "Размер": "5-6 години"
-          }
-        },
-        {
-          "variant_id": "6410",
-          "quantity": "2",
-          "parameters": {
-            "Размер": "7-8 години"
           }
         }
       ],
@@ -3836,9 +3820,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-28T07:48:27.735446+00:00",
+  "checked_at_utc": "2026-11-28T16:53:24.567417+00:00",
   "source_sha256": {
-    "native": "1b77cc4247ace0225f1ab694a5f5bfa0e1fbc942517f1fb69b158a165679e516",
+    "native": "c9424f5ac75fdfe3d681532fdad38dc08ebad5bc6c5d357e11bf8ba162a934bf",
     "facebook": "727185ba15666ff270ba98bc69afb5e71e4db38cfa5c43e5c9ca708d625d4cbc"
   }
 }
