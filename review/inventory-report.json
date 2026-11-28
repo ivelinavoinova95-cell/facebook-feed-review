@@ -4,11 +4,11 @@
   "source_generation_age_known": false,
   "meta_snapshot_supplied": false,
   "native_product_count": 190,
-  "feed_product_count": 149,
+  "feed_product_count": 150,
   "one_available_variant_count": 78,
-  "multiple_available_variants_count": 71,
+  "multiple_available_variants_count": 72,
   "one_available_size_count": 79,
-  "multiple_available_sizes_count": 70,
+  "multiple_available_sizes_count": 71,
   "issues": [],
   "products": [
     {
@@ -3124,6 +3124,56 @@
       "effective_price_eur": "18.90"
     },
     {
+      "product_id": "708",
+      "available_variant_count": 5,
+      "available_size_count": 5,
+      "available_sizes": [
+        "10-11 години",
+        "12-13 години",
+        "14-15 години",
+        "7-8 години",
+        "9-10 години"
+      ],
+      "available_variants": [
+        {
+          "variant_id": "7668",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "7-8 години"
+          }
+        },
+        {
+          "variant_id": "7671",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "9-10 години"
+          }
+        },
+        {
+          "variant_id": "7674",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "10-11 години"
+          }
+        },
+        {
+          "variant_id": "7677",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "12-13 години"
+          }
+        },
+        {
+          "variant_id": "7680",
+          "quantity": "1",
+          "parameters": {
+            "Размер": "14-15 години"
+          }
+        }
+      ],
+      "effective_price_eur": "35.00"
+    },
+    {
       "product_id": "711",
       "available_variant_count": 1,
       "available_size_count": 1,
@@ -3786,9 +3836,9 @@
       "effective_price_eur": "28.00"
     }
   ],
-  "checked_at_utc": "2026-11-27T22:42:47.466479+00:00",
+  "checked_at_utc": "2026-11-28T07:48:27.735446+00:00",
   "source_sha256": {
-    "native": "5c1187fd84cd7e1b141908a1d76d6eac26575f4173ff3828dc4483fab3d7e9d1",
-    "facebook": "1d89c3a144da433a85654fb59505956d43b816acf9e21a4c01b90cf4e8406139"
+    "native": "1b77cc4247ace0225f1ab694a5f5bfa0e1fbc942517f1fb69b158a165679e516",
+    "facebook": "727185ba15666ff270ba98bc69afb5e71e4db38cfa5c43e5c9ca708d625d4cbc"
   }
 }
